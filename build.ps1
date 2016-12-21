@@ -1,6 +1,6 @@
-Write-Host "It works in console!"
+Write-Host "See how I build in console!"
 Get-ChildItem Env:
 Start-Sleep 7
-Add-AppveyorMessage "It works as a message!"
+Add-AppveyorMessage "See how I send build messages!"
 Exit 0
 
